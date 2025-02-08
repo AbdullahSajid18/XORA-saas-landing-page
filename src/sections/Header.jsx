@@ -22,8 +22,8 @@ const Header = () => {
     <LinkScroll
       onClick={() => setIsOpen(false)}
       to={title}
-      spy
       offset={-100}
+      spy
       smooth
       activeClass="nav-active"
       className="uppercase transition-colors duration-500 cursor-pointer base-bold text-p4 hover:text-p1 max-lg:my-4 max-lg:h5"
